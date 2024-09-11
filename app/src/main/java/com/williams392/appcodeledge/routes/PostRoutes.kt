@@ -4,6 +4,7 @@ import com.williams392.appcodeledge.model.PostModel
 import retrofit2.Response
 import retrofit2.http.*
 
+
 interface PostRoutes {
 
     @GET("api/posts")
