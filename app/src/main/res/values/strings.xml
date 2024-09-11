@@ -1,3 +1,9 @@
 <resources>
+    <!-- CREDENCAILES APLICATIVO -->
     <string name="app_name">app-codeledge</string>
+    <string name="developer">Williams392</string>
+    <string name="desarrollo">Desarrollado por:</string>
+    <string name="version">version 1.0.0</string>
+
+
 </resources>

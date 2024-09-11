@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.williams392.appcolledge"
+    namespace = "com.williams392.appcodeledge"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.williams392.appcolledge"
-        minSdk = 24
+        applicationId = "com.williams392.appcodeledge"
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -45,4 +45,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.google.code.gson:gson:2.9.0")
+    implementation ("com.google.android.material:material:1.7.0")
+
+    // Libreria paras las animaciones:
+    implementation ("com.airbnb.android:lottie:6.4.1")
+
 }
